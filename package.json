@@ -1,0 +1,42 @@
+{
+  "name": "slater",
+  "version": "2.0.0-0",
+  "description": "A Shopify theme management tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=testing ava ./tests/*.test.js --verbose"
+  },
+  "bin": {
+    "slater": "index.js"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "keywords": [
+    "shopify",
+    "themekit",
+    "upload",
+    "development"
+  ],
+  "author": "estrattonbailey",
+  "license": "MIT",
+  "homepage": "https://github.com/slater-store/slater#readme",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "chokidar": "^3.3.1",
+    "commander": "^4.1.0",
+    "date-fns": "^2.9.0",
+    "exit-hook": "^2.0.0",
+    "fs-extra": "^7.0.1",
+    "junk": "^3.1.0",
+    "log-update": "^3.4.0",
+    "micromatch": "^4.0.2",
+    "node-fetch": "^2.6.0",
+    "recursive-readdir": "^2.2.2",
+    "w2t": "^2.0.2"
+  },
+  "devDependencies": {
+    "ava": "^3.0.0"
+  }
+}
